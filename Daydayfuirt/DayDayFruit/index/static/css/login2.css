@@ -1,0 +1,144 @@
+body,p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+#container{
+  background-image:url("timg.jpg");
+  width:990px;
+  height:600px;
+  margin: 0 auto;
+}
+#container h2{
+	color:#999;
+	border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+	font-size:20px;
+
+}
+#content{
+  width:986px;
+  height:550px;
+}
+/*   margin: 0 auto;
+   */
+#login{
+  float:right;
+   margin-top: 311px;
+   margin-right: 66px;
+}
+
+form{
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+	
+#login.form-line,#login.form-contro4,#login.form-contro3{
+  overflow: hidden;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 100px;
+  padding-bottom: 10px;
+  float: right;
+
+}
+#img1{
+  float:left;
+}
+#login.form-line>div{
+  float: right;
+  widows: 300px;
+}
+#login.form-line>p{
+  float: left;
+  margin-right: 30px;
+  height: 40px;
+  line-height: 40px;
+  color: #ccc;
+}
+#login.form-contro1>p{
+  float: right;
+  widows: 300px;
+}
+
+#login.form-contro3{
+  width: 400px;
+  height: 44px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 15px; */
+}
+#login p.anchor{
+  float: right;
+  margin-left: 15px;
+
+}
+#login p.saved{
+  float: left;
+}
+#login p.anchor a{
+  color: #999;
+}
+#login p.saved input{
+  width: 16px;
+  height: 16px;
+  /*垂直对其，控制当前元素两端文本相对于当前元素的垂直对齐方式
+    top:顶部对齐
+    middle:居中对齐
+    bottom:底部对齐
+    baseline:基线对齐;
+  */
+  vertical-align: middle;
+}
+#login div.form-line a.goReg{
+  widows: 145px;
+  height: 40px;
+  border: 1px solid #7A8F66;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  float: right;
+}#login div.form-contro4 a.btnlogin{
+  widows: 145px;
+  height: 40px;
+  border: 1px solid #7A8F66;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  float: left;
+
+}
+#
+#login.form-contro4{
+  overflow: hidden;
+  margin-bottom: 15px;
+  position:relative;
+  width: 400px;
+  height: 44px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 15px; */
+}
+#img{
+ width:500px;
+ float: left;
+ margin-top:80px
+}
+#img>a{
+  position:absolute;
+  box-sizing:border-box;
+  width: 156px;
+  height: 50px;
+  border: 1px solid #7A8B61;
+  border-radius: 5px;
+  top: 50px;
+  left: 172px;
+  font-size:18px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;   
+}
