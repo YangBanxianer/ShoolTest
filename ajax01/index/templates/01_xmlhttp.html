@@ -6,7 +6,6 @@
     <script>
         function btnCreate(){
             var xhr = getXhr();
-            alert(xhr);
         };
         function getXhr(){
             if(window.XMLHttpRequest){
@@ -18,18 +17,18 @@
 
         function send_ajax(){
             var xhr=getXhr();
-            xhr.open('GET','/01_request/',true);
+            xhr.open('get','/01_request/',true);
             xhr.onreadystatechange = function(){
                 if(xhr.readyState==4&&xhr.status==200){
-                document.getElementById('mydiv').innerHTML=xhr.responseText;
-            }
+                document.getElementById("mydiv").innerHTML=xhr.responseText
+                }
+             }
             xhr.send(null);
-        }
-        xhr.open('GET',/01_request/,ture)
+        };
     </script>
 </head>
 <body>
-    <button type="button" onclick="btnCreate()">发送ajax请求</button>
+    <button type="button" onclick="send_ajax()">发送ajax请求</button>
     <div id="mydiv"></div>
 </body>
 </html>
